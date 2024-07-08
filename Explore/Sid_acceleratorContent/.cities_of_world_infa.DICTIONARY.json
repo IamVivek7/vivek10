@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "6k2yzW7ktOadWyTjt8e0uZ",
+    "name" : "cities_of_world_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6k2yzW7ktOadWyTjt8e0uZ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Captures the cities of the world.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-07-08T23:26:00.000Z",
+  "objectRefs" : [ ]
+}
