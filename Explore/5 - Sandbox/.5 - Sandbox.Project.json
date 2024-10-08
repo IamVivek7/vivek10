@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "1nCywKHG4qpiIPbfSa6d4F",
+    "name" : "5 - Sandbox",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Houses all old DW mappings, Old Projects and Sandbox mappings",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-10-08T20:54:35.007Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}

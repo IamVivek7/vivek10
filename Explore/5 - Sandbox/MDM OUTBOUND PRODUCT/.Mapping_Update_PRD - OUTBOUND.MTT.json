@@ -1,0 +1,198 @@
+{
+  "objectInfo" : {
+    "id" : "0T14tKPRnxyfmNdKClglEo",
+    "name" : "Mapping_Update_PRD - OUTBOUND",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010P9V0Z00000000007M"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-10-08T20:54:35.012Z",
+  "objectRefs" : [ {
+    "id" : "d4mqCv6hOkZk55HxgOfzOj",
+    "name" : "SAP_API_PRODUCT_SRV-QA",
+    "type" : "BSERVICE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010P9V2700000000000K"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      }, {
+        "name" : "010P9V2800000000001N",
+        "value" : "d4mqCv6hOkZk55HxgOfzOj@API_PRODUCT_SRV/A_ProductSalesDelivery"
+      }, {
+        "name" : "010P9V2800000000001M",
+        "value" : "d4mqCv6hOkZk55HxgOfzOj@API_PRODUCT_SRV/A_ProductSales"
+      }, {
+        "name" : "010P9V2800000000001P",
+        "value" : "d4mqCv6hOkZk55HxgOfzOj@API_PRODUCT_SRV/A_ProductStorage"
+      }, {
+        "name" : "010P9V2800000000001O",
+        "value" : "d4mqCv6hOkZk55HxgOfzOj@API_PRODUCT_SRV/A_ProductPlantCosting"
+      }, {
+        "name" : "010P9V2800000000001D",
+        "value" : "d4mqCv6hOkZk55HxgOfzOj@API_PRODUCT_SRV/A_ProductDescription"
+      }, {
+        "name" : "010P9V2800000000001C",
+        "value" : "d4mqCv6hOkZk55HxgOfzOj@API_PRODUCT_SRV/A_Product"
+      }, {
+        "name" : "010P9V2800000000001F",
+        "value" : "d4mqCv6hOkZk55HxgOfzOj@API_PRODUCT_SRV/A_ProductPlantMRPArea"
+      }, {
+        "name" : "010P9V2800000000001E",
+        "value" : "d4mqCv6hOkZk55HxgOfzOj@API_PRODUCT_SRV/A_ProductPlant"
+      }, {
+        "name" : "010P9V2800000000001H",
+        "value" : "d4mqCv6hOkZk55HxgOfzOj@API_PRODUCT_SRV/A_ProductPlantStorage"
+      }, {
+        "name" : "010P9V2800000000001G",
+        "value" : "d4mqCv6hOkZk55HxgOfzOj@API_PRODUCT_SRV/A_ProductPlantSales"
+      }, {
+        "name" : "010P9V2800000000001J",
+        "value" : "d4mqCv6hOkZk55HxgOfzOj@API_PRODUCT_SRV/A_ProductSupplyPlanning"
+      }, {
+        "name" : "010P9V2800000000001I",
+        "value" : "d4mqCv6hOkZk55HxgOfzOj@API_PRODUCT_SRV/A_ProductPurchaseText"
+      }, {
+        "name" : "010P9V2800000000001L",
+        "value" : "d4mqCv6hOkZk55HxgOfzOj@API_PRODUCT_SRV/A_ProductUnitsOfMeasure"
+      }, {
+        "name" : "010P9V2800000000001K",
+        "value" : "d4mqCv6hOkZk55HxgOfzOj@API_PRODUCT_SRV/A_ProductSalesTax"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/5 - Sandbox/MDM OUTBOUND PRODUCT"
+  }, {
+    "id" : "75akgjAtEBvdovUmjJT4Kz",
+    "name" : "VSALTX",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010P9V2500000000000G"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "8B8PhpkLwbXgQyV0Na65a8",
+    "name" : "MDM Dev",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010P9V0B00000000005J"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Landing tables for MDM Hub",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "aLvnz1Kty6NboofdPKXvKN",
+    "name" : "FlatFile_Output_Location",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010P9V0B00000000005M"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "1610 Inventory Files",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "8u3Cm6CYxwole4LKxmEOsB",
+    "name" : "Odata_SAP_PROD_V2",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010P9V0B00000000005L"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "hFUXdVKyPUWcBswhP0yX2j",
+    "name" : "Mapping_Update_PRD - OUTBOUND",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010P9V1700000000007G"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/5 - Sandbox/MDM OUTBOUND PRODUCT"
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
