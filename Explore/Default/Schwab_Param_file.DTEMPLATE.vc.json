@@ -1,0 +1,2365 @@
+{
+  "content" : {
+    "allowMaxFieldLength" : "false",
+    "bigIntConvertType" : "ONLY_BIGINT",
+    "documentType" : "MAPPING",
+    "name" : "Schwab_Param_file",
+    "links" : [
+      {
+        "link" : "Source -> Target"
+      }
+    ],
+    "parameters" : [
+      {
+        "input" : "true",
+        "output" : "false",
+        "precision" : 0,
+        "scale" : 0,
+        "allowRuntimeOverride" : "true",
+        "expressionVariable" : "false",
+        "name" : "source_conn",
+        "anonymousType" : {
+          "typeSystem" : "Oracle",
+          "connectionType" : "Oracle"
+        }
+      },
+      {
+        "input" : "true",
+        "output" : "false",
+        "precision" : 0,
+        "scale" : 0,
+        "allowRuntimeOverride" : "true",
+        "expressionVariable" : "false",
+        "name" : "BQ_Param",
+        "anonymousType" : {
+          "subType" : "TOOLKIT_CCI",
+          "typeSystem" : "TOOLKIT",
+          "connectionType" : "Google Big Query V2"
+        }
+      },
+      {
+        "input" : "true",
+        "output" : "false",
+        "precision" : 0,
+        "scale" : 0,
+        "allowRuntimeOverride" : "false",
+        "expressionVariable" : "false",
+        "name" : "BQ_Param_BQ",
+        "anonymousType" : {
+          "subType" : "TOOLKIT_CCI",
+          "typeSystem" : "TOOLKIT",
+          "connectionType" : "Google Big Query V2"
+        }
+      }
+    ],
+    "transformations" : [
+      {
+        "createTime" : "2025-05-05T16:05:02.169Z",
+        "name" : "Source",
+        "advancedProperties" : [
+          {
+            "name" : "Tracing Level",
+            "value" : "Normal"
+          },
+          {
+            "name" : "Output is deterministic",
+            "value" : "false"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "false",
+            "name" : "DefaultGroup",
+            "output" : "true"
+          }
+        ],
+        "generateFilenamePort" : "false",
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "APLCT_ID"
+            },
+            "name" : "APLCT_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ACCT_ID"
+            },
+            "name" : "ACCT_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "VNDR_ACCT_ID"
+            },
+            "name" : "VNDR_ACCT_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "AUDIT_UPDT_SWB_PRSN_ID"
+            },
+            "name" : "AUDIT_UPDT_SWB_PRSN_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "APLCT_TAX_ID"
+            },
+            "name" : "APLCT_TAX_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "APP_STAT_TX"
+            },
+            "name" : "APP_STAT_TX",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ACCT_OPEN_CHNL_TX"
+            },
+            "name" : "ACCT_OPEN_CHNL_TX",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ACCT_FAIL_CHNL_TX"
+            },
+            "name" : "ACCT_FAIL_CHNL_TX",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "APP_ID"
+            },
+            "name" : "APP_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ACCT_FAIL_DT"
+            },
+            "name" : "ACCT_FAIL_DT",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ACCT_FAIL_REAS_TX"
+            },
+            "name" : "ACCT_FAIL_REAS_TX",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "APP_TMESTAMP"
+            },
+            "name" : "APP_TMESTAMP",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "AUDIT_UPDT_TS"
+            },
+            "name" : "AUDIT_UPDT_TS",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "AUDIT_UPDT_BY_NM"
+            },
+            "name" : "AUDIT_UPDT_BY_NM",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "BANK_PROD_CD"
+            },
+            "name" : "BANK_PROD_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "BEACON_SCORE_NR"
+            },
+            "name" : "BEACON_SCORE_NR",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "FRAUD_REAS_TX"
+            },
+            "name" : "FRAUD_REAS_TX",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "REVU_REAS_TX"
+            },
+            "name" : "REVU_REAS_TX",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "QUALIFILE_SCORE_NR"
+            },
+            "name" : "QUALIFILE_SCORE_NR",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DW_EFF_DT"
+            },
+            "name" : "DW_EFF_DT",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DW_EXPR_DT"
+            },
+            "name" : "DW_EXPR_DT",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CURR_IN"
+            },
+            "name" : "CURR_IN",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "RCV_IN"
+            },
+            "name" : "RCV_IN",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDT_PATH_DW_EFF_DT"
+            },
+            "name" : "UPDT_PATH_DW_EFF_DT",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDT_PATH_DW_EXPR_DT"
+            },
+            "name" : "UPDT_PATH_DW_EXPR_DT",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DW_ACTN_IN"
+            },
+            "name" : "DW_ACTN_IN",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DW_ROW_NR"
+            },
+            "name" : "DW_ROW_NR",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DW_VALIDTN_IN"
+            },
+            "name" : "DW_VALIDTN_IN",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DW_LOAD_TS"
+            },
+            "name" : "DW_LOAD_TS",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@l8lT2axlwi1fOkPtAYsFKO",
+          "connectionName" : "FlatFile_LINUX",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "CSVFile",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "schwab_param.csv",
+            "label" : "schwab_param.csv",
+            "objectName" : "schwab_param.csv",
+            "path" : "schwab_param.csv",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "APLCT_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "APLCT_ID",
+                "nativeName" : "APLCT_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "ACCT_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "ACCT_ID",
+                "nativeName" : "ACCT_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "VNDR_ACCT_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "VNDR_ACCT_ID",
+                "nativeName" : "VNDR_ACCT_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "AUDIT_UPDT_SWB_PRSN_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "AUDIT_UPDT_SWB_PRSN_ID",
+                "nativeName" : "AUDIT_UPDT_SWB_PRSN_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "APLCT_TAX_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "APLCT_TAX_ID",
+                "nativeName" : "APLCT_TAX_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "APP_STAT_TX",
+                "fieldType" : "CONNECTOR",
+                "label" : "APP_STAT_TX",
+                "nativeName" : "APP_STAT_TX",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "ACCT_OPEN_CHNL_TX",
+                "fieldType" : "CONNECTOR",
+                "label" : "ACCT_OPEN_CHNL_TX",
+                "nativeName" : "ACCT_OPEN_CHNL_TX",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "ACCT_FAIL_CHNL_TX",
+                "fieldType" : "CONNECTOR",
+                "label" : "ACCT_FAIL_CHNL_TX",
+                "nativeName" : "ACCT_FAIL_CHNL_TX",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "APP_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "APP_ID",
+                "nativeName" : "APP_ID",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "ACCT_FAIL_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "ACCT_FAIL_DT",
+                "nativeName" : "ACCT_FAIL_DT",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "ACCT_FAIL_REAS_TX",
+                "fieldType" : "CONNECTOR",
+                "label" : "ACCT_FAIL_REAS_TX",
+                "nativeName" : "ACCT_FAIL_REAS_TX",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "APP_TMESTAMP",
+                "fieldType" : "CONNECTOR",
+                "label" : "APP_TMESTAMP",
+                "nativeName" : "APP_TMESTAMP",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "AUDIT_UPDT_TS",
+                "fieldType" : "CONNECTOR",
+                "label" : "AUDIT_UPDT_TS",
+                "nativeName" : "AUDIT_UPDT_TS",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "AUDIT_UPDT_BY_NM",
+                "fieldType" : "CONNECTOR",
+                "label" : "AUDIT_UPDT_BY_NM",
+                "nativeName" : "AUDIT_UPDT_BY_NM",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "BANK_PROD_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "BANK_PROD_CD",
+                "nativeName" : "BANK_PROD_CD",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "BEACON_SCORE_NR",
+                "fieldType" : "CONNECTOR",
+                "label" : "BEACON_SCORE_NR",
+                "nativeName" : "BEACON_SCORE_NR",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "FRAUD_REAS_TX",
+                "fieldType" : "CONNECTOR",
+                "label" : "FRAUD_REAS_TX",
+                "nativeName" : "FRAUD_REAS_TX",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "REVU_REAS_TX",
+                "fieldType" : "CONNECTOR",
+                "label" : "REVU_REAS_TX",
+                "nativeName" : "REVU_REAS_TX",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "QUALIFILE_SCORE_NR",
+                "fieldType" : "CONNECTOR",
+                "label" : "QUALIFILE_SCORE_NR",
+                "nativeName" : "QUALIFILE_SCORE_NR",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "DW_EFF_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "DW_EFF_DT",
+                "nativeName" : "DW_EFF_DT",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "DW_EXPR_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "DW_EXPR_DT",
+                "nativeName" : "DW_EXPR_DT",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "CURR_IN",
+                "fieldType" : "CONNECTOR",
+                "label" : "CURR_IN",
+                "nativeName" : "CURR_IN",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "RCV_IN",
+                "fieldType" : "CONNECTOR",
+                "label" : "RCV_IN",
+                "nativeName" : "RCV_IN",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDT_PATH_DW_EFF_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDT_PATH_DW_EFF_DT",
+                "nativeName" : "UPDT_PATH_DW_EFF_DT",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDT_PATH_DW_EXPR_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDT_PATH_DW_EXPR_DT",
+                "nativeName" : "UPDT_PATH_DW_EXPR_DT",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "DW_ACTN_IN",
+                "fieldType" : "CONNECTOR",
+                "label" : "DW_ACTN_IN",
+                "nativeName" : "DW_ACTN_IN",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "DW_ROW_NR",
+                "fieldType" : "CONNECTOR",
+                "label" : "DW_ROW_NR",
+                "nativeName" : "DW_ROW_NR",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "DW_VALIDTN_IN",
+                "fieldType" : "CONNECTOR",
+                "label" : "DW_VALIDTN_IN",
+                "nativeName" : "DW_VALIDTN_IN",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "DW_LOAD_TS",
+                "fieldType" : "CONNECTOR",
+                "label" : "DW_LOAD_TS",
+                "nativeName" : "DW_LOAD_TS",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "schwab_param.csv"
+                  }
+                ]
+              }
+            ],
+            "fileAttrs" : {
+              "consecutiveDelimiter" : "false",
+              "delimiter" : ",",
+              "firstDataRow" : 2,
+              "firstDataRowAsHeader" : "false",
+              "headerLineNo" : 1,
+              "multiDelimitersAsAnd" : "true",
+              "rowDelimiter" : 0,
+              "textQualifier" : "\""
+            }
+          },
+          "readOptions" : {
+            "commandType" : 0,
+            "descending" : "false",
+            "queryAll" : "false",
+            "rowLimit" : 0,
+            "selectDistinct" : "false"
+          }
+        }
+      },
+      {
+        "createTime" : "2025-05-05T16:05:02.169Z",
+        "name" : "Target",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          },
+          {
+            "name" : "Thousand Separator",
+            "value" : "None"
+          },
+          {
+            "name" : "Decimal Separator",
+            "value" : "."
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "sessionProperties" : [
+          {
+            "name" : "Append if Exists",
+            "value" : "NO"
+          },
+          {
+            "name" : "Create Target Directory",
+            "value" : "NO"
+          },
+          {
+            "name" : "Header Options",
+            "value" : "Output Field Names"
+          },
+          {
+            "name" : "Output Type",
+            "value" : "File"
+          }
+        ],
+        "createTarget" : "false",
+        "fieldMappingMode" : "MANUAL",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "APLCT_ID"
+            },
+            "name" : "APLCT_ID",
+            "platformType" : {
+              "name" : "bigint"
+            },
+            "precision" : 19,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ACCT_ID"
+            },
+            "name" : "ACCT_ID",
+            "platformType" : {
+              "name" : "bigint"
+            },
+            "precision" : 19,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "VNDR_ACCT_ID"
+            },
+            "name" : "VNDR_ACCT_ID",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 28,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "AUDIT_UPDT_SWB_PRSN_ID"
+            },
+            "name" : "AUDIT_UPDT_SWB_PRSN_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "APLCT_TAX_ID"
+            },
+            "name" : "APLCT_TAX_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "APP_STAT_TX"
+            },
+            "name" : "APP_STAT_TX",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ACCT_OPEN_CHNL_TX"
+            },
+            "name" : "ACCT_OPEN_CHNL_TX",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ACCT_FAIL_CHNL_TX"
+            },
+            "name" : "ACCT_FAIL_CHNL_TX",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "APP_ID"
+            },
+            "name" : "APP_ID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ACCT_FAIL_DT"
+            },
+            "name" : "ACCT_FAIL_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "ACCT_FAIL_REAS_TX"
+            },
+            "name" : "ACCT_FAIL_REAS_TX",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "APP_TMESTAMP"
+            },
+            "name" : "APP_TMESTAMP",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "AUDIT_UPDT_TS"
+            },
+            "name" : "AUDIT_UPDT_TS",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "AUDIT_UPDT_BY_NM"
+            },
+            "name" : "AUDIT_UPDT_BY_NM",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "BANK_PROD_CD"
+            },
+            "name" : "BANK_PROD_CD",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "BEACON_SCORE_NR"
+            },
+            "name" : "BEACON_SCORE_NR",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "FRAUD_REAS_TX"
+            },
+            "name" : "FRAUD_REAS_TX",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "REVU_REAS_TX"
+            },
+            "name" : "REVU_REAS_TX",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "QUALIFILE_SCORE_NR"
+            },
+            "name" : "QUALIFILE_SCORE_NR",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DW_EFF_DT"
+            },
+            "name" : "DW_EFF_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "DW_EXPR_DT"
+            },
+            "name" : "DW_EXPR_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "CURR_IN"
+            },
+            "name" : "CURR_IN",
+            "platformType" : {
+              "name" : "bigint"
+            },
+            "precision" : 19,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "RCV_IN"
+            },
+            "name" : "RCV_IN",
+            "platformType" : {
+              "name" : "bigint"
+            },
+            "precision" : 19,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDT_PATH_DW_EFF_DT"
+            },
+            "name" : "UPDT_PATH_DW_EFF_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "UPDT_PATH_DW_EXPR_DT"
+            },
+            "name" : "UPDT_PATH_DW_EXPR_DT",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "DW_ACTN_IN"
+            },
+            "name" : "DW_ACTN_IN",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DW_ROW_NR"
+            },
+            "name" : "DW_ROW_NR",
+            "platformType" : {
+              "name" : "bigint"
+            },
+            "precision" : 19,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DW_VALIDTN_IN"
+            },
+            "name" : "DW_VALIDTN_IN",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DW_LOAD_TS"
+            },
+            "name" : "DW_LOAD_TS",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId$" : {
+            "name" : "BQ_Param_BQ"
+          },
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "TOOLKIT",
+          "useDynamicFileName" : "false",
+          "bulkOptions" : {
+            "hardDelete" : "false",
+            "maxRowsPerRequest" : 0,
+            "monitorBulk" : "false",
+            "monitorBulkV2" : "false",
+            "pkChunkingEnabled" : "false",
+            "pkChunkingSize" : 0,
+            "serialMode" : "false",
+            "useBulkApi" : "false",
+            "useBulkApiV2" : "false"
+          },
+          "object" : {
+            "name" : "css/BANK_DEP_ACCT_REVU_W",
+            "label" : "css/BANK_DEP_ACCT_REVU_W",
+            "objectName" : "BANK_DEP_ACCT_REVU_W",
+            "path" : "css/BANK_DEP_ACCT_REVU_W",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "APLCT_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "APLCT_ID",
+                "nativeName" : "APLCT_ID",
+                "nativeType" : "integer",
+                "original" : "false",
+                "precision" : 19,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "ACCT_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "ACCT_ID",
+                "nativeName" : "ACCT_ID",
+                "nativeType" : "integer",
+                "original" : "false",
+                "precision" : 19,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "VNDR_ACCT_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "VNDR_ACCT_ID",
+                "nativeName" : "VNDR_ACCT_ID",
+                "nativeType" : "numeric",
+                "original" : "false",
+                "precision" : 28,
+                "scale" : 9,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "AUDIT_UPDT_SWB_PRSN_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "AUDIT_UPDT_SWB_PRSN_ID",
+                "nativeName" : "AUDIT_UPDT_SWB_PRSN_ID",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "APLCT_TAX_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "APLCT_TAX_ID",
+                "nativeName" : "APLCT_TAX_ID",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "APP_STAT_TX",
+                "fieldType" : "CONNECTOR",
+                "label" : "APP_STAT_TX",
+                "nativeName" : "APP_STAT_TX",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "ACCT_OPEN_CHNL_TX",
+                "fieldType" : "CONNECTOR",
+                "label" : "ACCT_OPEN_CHNL_TX",
+                "nativeName" : "ACCT_OPEN_CHNL_TX",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "ACCT_FAIL_CHNL_TX",
+                "fieldType" : "CONNECTOR",
+                "label" : "ACCT_FAIL_CHNL_TX",
+                "nativeName" : "ACCT_FAIL_CHNL_TX",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "APP_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "APP_ID",
+                "nativeName" : "APP_ID",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "ACCT_FAIL_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "ACCT_FAIL_DT",
+                "nativeName" : "ACCT_FAIL_DT",
+                "nativeType" : "date",
+                "original" : "false",
+                "precision" : 29,
+                "scale" : 9,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "ACCT_FAIL_REAS_TX",
+                "fieldType" : "CONNECTOR",
+                "label" : "ACCT_FAIL_REAS_TX",
+                "nativeName" : "ACCT_FAIL_REAS_TX",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "APP_TMESTAMP",
+                "fieldType" : "CONNECTOR",
+                "label" : "APP_TMESTAMP",
+                "nativeName" : "APP_TMESTAMP",
+                "nativeType" : "datetime",
+                "original" : "false",
+                "precision" : 29,
+                "scale" : 9,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "AUDIT_UPDT_TS",
+                "fieldType" : "CONNECTOR",
+                "label" : "AUDIT_UPDT_TS",
+                "nativeName" : "AUDIT_UPDT_TS",
+                "nativeType" : "datetime",
+                "original" : "false",
+                "precision" : 29,
+                "scale" : 9,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "AUDIT_UPDT_BY_NM",
+                "fieldType" : "CONNECTOR",
+                "label" : "AUDIT_UPDT_BY_NM",
+                "nativeName" : "AUDIT_UPDT_BY_NM",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "BANK_PROD_CD",
+                "fieldType" : "CONNECTOR",
+                "label" : "BANK_PROD_CD",
+                "nativeName" : "BANK_PROD_CD",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "BEACON_SCORE_NR",
+                "fieldType" : "CONNECTOR",
+                "label" : "BEACON_SCORE_NR",
+                "nativeName" : "BEACON_SCORE_NR",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "FRAUD_REAS_TX",
+                "fieldType" : "CONNECTOR",
+                "label" : "FRAUD_REAS_TX",
+                "nativeName" : "FRAUD_REAS_TX",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "REVU_REAS_TX",
+                "fieldType" : "CONNECTOR",
+                "label" : "REVU_REAS_TX",
+                "nativeName" : "REVU_REAS_TX",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "QUALIFILE_SCORE_NR",
+                "fieldType" : "CONNECTOR",
+                "label" : "QUALIFILE_SCORE_NR",
+                "nativeName" : "QUALIFILE_SCORE_NR",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "DW_EFF_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "DW_EFF_DT",
+                "nativeName" : "DW_EFF_DT",
+                "nativeType" : "date",
+                "original" : "false",
+                "precision" : 29,
+                "scale" : 9,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "DW_EXPR_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "DW_EXPR_DT",
+                "nativeName" : "DW_EXPR_DT",
+                "nativeType" : "date",
+                "original" : "false",
+                "precision" : 29,
+                "scale" : 9,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "CURR_IN",
+                "fieldType" : "CONNECTOR",
+                "label" : "CURR_IN",
+                "nativeName" : "CURR_IN",
+                "nativeType" : "integer",
+                "original" : "false",
+                "precision" : 19,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "RCV_IN",
+                "fieldType" : "CONNECTOR",
+                "label" : "RCV_IN",
+                "nativeName" : "RCV_IN",
+                "nativeType" : "integer",
+                "original" : "false",
+                "precision" : 19,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDT_PATH_DW_EFF_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDT_PATH_DW_EFF_DT",
+                "nativeName" : "UPDT_PATH_DW_EFF_DT",
+                "nativeType" : "date",
+                "original" : "false",
+                "precision" : 29,
+                "scale" : 9,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "UPDT_PATH_DW_EXPR_DT",
+                "fieldType" : "CONNECTOR",
+                "label" : "UPDT_PATH_DW_EXPR_DT",
+                "nativeName" : "UPDT_PATH_DW_EXPR_DT",
+                "nativeType" : "date",
+                "original" : "false",
+                "precision" : 29,
+                "scale" : 9,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "DW_ACTN_IN",
+                "fieldType" : "CONNECTOR",
+                "label" : "DW_ACTN_IN",
+                "nativeName" : "DW_ACTN_IN",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "DW_ROW_NR",
+                "fieldType" : "CONNECTOR",
+                "label" : "DW_ROW_NR",
+                "nativeName" : "DW_ROW_NR",
+                "nativeType" : "integer",
+                "original" : "false",
+                "precision" : 19,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "DW_VALIDTN_IN",
+                "fieldType" : "CONNECTOR",
+                "label" : "DW_VALIDTN_IN",
+                "nativeName" : "DW_VALIDTN_IN",
+                "nativeType" : "string",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              },
+              {
+                "name" : "DW_LOAD_TS",
+                "fieldType" : "CONNECTOR",
+                "label" : "DW_LOAD_TS",
+                "nativeName" : "DW_LOAD_TS",
+                "nativeType" : "datetime",
+                "original" : "false",
+                "precision" : 29,
+                "scale" : 9,
+                "metaExtensions" : [
+                  {
+                    "name" : "parametrisedLength",
+                    "value" : "0"
+                  },
+                  {
+                    "name" : "isRepeatable",
+                    "value" : "false"
+                  },
+                  {
+                    "name" : "isRecord",
+                    "value" : "false"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "BANK_DEP_ACCT_REVU_W"
+                  }
+                ]
+              }
+            ],
+            "objectAttributes" : [
+              {
+                "name" : "connectorType",
+                "value" : "Simple"
+              },
+              {
+                "name" : "originalDataSetId",
+                "value" : "css"
+              },
+              {
+                "name" : "recordType",
+                "value" : "TABLE"
+              },
+              {
+                "name" : "uniqueId",
+                "value" : "8a42f0cd-0a8d-430f-ba63-e99bc5b26355"
+              },
+              {
+                "name" : "isLegacySQLView",
+                "value" : "false"
+              }
+            ]
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "false",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false"
+          }
+        },
+        "manualMappings" : {
+          "mappingList" : [
+            {
+              "fromFieldName" : "APLCT_ID",
+              "toField" : {
+                "name" : "APLCT_ID"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "ACCT_ID",
+              "toField" : {
+                "name" : "ACCT_ID"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "VNDR_ACCT_ID",
+              "toField" : {
+                "name" : "VNDR_ACCT_ID"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "AUDIT_UPDT_SWB_PRSN_ID",
+              "toField" : {
+                "name" : "AUDIT_UPDT_SWB_PRSN_ID"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "APLCT_TAX_ID",
+              "toField" : {
+                "name" : "APLCT_TAX_ID"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "APP_STAT_TX",
+              "toField" : {
+                "name" : "APP_STAT_TX"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "ACCT_OPEN_CHNL_TX",
+              "toField" : {
+                "name" : "ACCT_OPEN_CHNL_TX"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "ACCT_FAIL_CHNL_TX",
+              "toField" : {
+                "name" : "ACCT_FAIL_CHNL_TX"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "APP_ID",
+              "toField" : {
+                "name" : "APP_ID"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "ACCT_FAIL_REAS_TX",
+              "toField" : {
+                "name" : "ACCT_FAIL_REAS_TX"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "AUDIT_UPDT_BY_NM",
+              "toField" : {
+                "name" : "AUDIT_UPDT_BY_NM"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "BANK_PROD_CD",
+              "toField" : {
+                "name" : "BANK_PROD_CD"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "BEACON_SCORE_NR",
+              "toField" : {
+                "name" : "BEACON_SCORE_NR"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "FRAUD_REAS_TX",
+              "toField" : {
+                "name" : "FRAUD_REAS_TX"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "REVU_REAS_TX",
+              "toField" : {
+                "name" : "REVU_REAS_TX"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "QUALIFILE_SCORE_NR",
+              "toField" : {
+                "name" : "QUALIFILE_SCORE_NR"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "CURR_IN",
+              "toField" : {
+                "name" : "CURR_IN"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "RCV_IN",
+              "toField" : {
+                "name" : "RCV_IN"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "DW_ACTN_IN",
+              "toField" : {
+                "name" : "DW_ACTN_IN"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "DW_ROW_NR",
+              "toField" : {
+                "name" : "DW_ROW_NR"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "DW_VALIDTN_IN",
+              "toField" : {
+                "name" : "DW_VALIDTN_IN"
+              },
+              "fromFieldNames" : null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "vcsExportTime" : "2025-05-27 10:24:14 PDT"
+}

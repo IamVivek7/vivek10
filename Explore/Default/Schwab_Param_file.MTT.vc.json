@@ -1,0 +1,158 @@
+{
+  "name" : "Schwab_Param_file",
+  "description" : "Test",
+  "runtimeEnvironmentId" : "@h6FF7VPBR2FkbyaLLCOIE3",
+  "runtimeEnvironmentName" : "AS_SD_Linux01",
+  "maxLogs" : 10,
+  "parameters" : [
+    {
+      "name" : "$Source$",
+      "type" : "EXTENDED_SOURCE",
+      "label" : "Source",
+      "uiProperties" : {
+        "connectionParameterized" : "false",
+        "isSelectDistinct" : "false",
+        "isMsrcFilterParameterized" : "false",
+        "isMsrcSortParameterized" : "false",
+        "objectParameterized" : "false",
+        "visible" : "false",
+        "originalPath" : "Source"
+      },
+      "sourceConnectionId" : "@l8lT2axlwi1fOkPtAYsFKO",
+      "connectionName" : "FlatFile_LINUX",
+      "newFlatFile" : false,
+      "newObject" : false,
+      "showBusinessNames" : false,
+      "naturalOrder" : true,
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "srcFFAttrs" : {
+        "delimiter" : ",",
+        "textQualifier" : "\"",
+        "headerLineNo" : 1,
+        "firstDataRow" : 2,
+        "rowDelimiter" : 0,
+        "consecutiveDelimiter" : false,
+        "multiDelimitersAsAnd" : true,
+        "firstDataRowAsHeader" : false
+      },
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "object" : {
+          "name" : "schwab_param.csv",
+          "label" : "schwab_param.csv",
+          "metadataUpdated" : false
+        },
+        "singleMode" : true,
+        "objects" : [
+          {
+            "name" : "schwab_param.csv",
+            "label" : "schwab_param.csv",
+            "metadataUpdated" : false
+          }
+        ]
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "unspecified" : false,
+      "fetchMode" : "ORIGINAL",
+      "runtimeParameterData" : {
+        "connectionRuntimeParameter" : false,
+        "objectRuntimeParameter" : false
+      },
+      "restmodernSource" : true,
+      "fileList" : false
+    },
+    {
+      "name" : "$Target$",
+      "type" : "TARGET",
+      "label" : "BQ_Param_BQ",
+      "uiProperties" : {
+        "cnxtype" : "Google Big Query V2",
+        "connectionParameterized" : "true",
+        "paramName" : "BQ_Param_BQ",
+        "paramType-mapping" : "Connection",
+        "logcnx" : "BQ_Param_BQ",
+        "default" : "css/BANK_DEP_ACCT_REVU_W",
+        "objectParameterized" : "false",
+        "visible" : "false",
+        "supportApplyDDLChanges" : "false",
+        "originalPath" : "Target"
+      },
+      "targetConnectionId" : "@7B94wh7VXKydCmYwOViXCW",
+      "connectionName" : "GoogleBigQueryV2_Lin",
+      "targetObject" : "css/BANK_DEP_ACCT_REVU_W",
+      "targetObjectLabel" : "css/BANK_DEP_ACCT_REVU_W",
+      "newFlatFile" : false,
+      "newObject" : false,
+      "showBusinessNames" : true,
+      "naturalOrder" : true,
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "operationType" : "Insert",
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "singleMode" : true
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "objectName" : "css/BANK_DEP_ACCT_REVU_W",
+      "objectLabel" : "css/BANK_DEP_ACCT_REVU_W",
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "unspecified" : false,
+      "fetchMode" : "ORIGINAL",
+      "runtimeParameterData" : {
+        "connectionParameterName" : "BQ_Param_BQ",
+        "connectionRuntimeParameter" : false,
+        "objectRuntimeParameter" : false
+      },
+      "restmodernSource" : true,
+      "fileList" : false
+    }
+  ],
+  "verbose" : false,
+  "mappingId" : "@jcXguscimGycXXjwNPxPcS",
+  "mappingTemplateName" : "Schwab_Param_file",
+  "sessionPropertiesList" : [
+    {
+      "name" : "Pushdown Optimization",
+      "value" : "None"
+    },
+    {
+      "name" : "Pushdown Optimization Context",
+      "value" : "None"
+    },
+    {
+      "name" : "Pushdown Optimization Fallback Option",
+      "value" : "Partial PDO"
+    }
+  ],
+  "hidden" : false,
+  "enableCrossSchemaPushdown" : true,
+  "enableParallelRun" : false,
+  "autoTunedApplied" : false,
+  "autoTunedAppliedType" : "NONE",
+  "parameterFileName" : "Schwab_Param_file.param",
+  "paramFileType" : "PARAM_FILE_LOCAL",
+  "schemaMode" : "async",
+  "valid" : true,
+  "optimizationPlan" : "NONE",
+  "allowMaxFieldLength" : false,
+  "midstreamPreview" : false,
+  "vcsExportTime" : "2025-05-27 10:24:14 PDT"
+}
