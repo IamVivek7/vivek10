@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "9Q9iZP5khNdf47PdWDQ3Sy",
+    "name" : "04301739",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Reproducer test case for Informatica case 04301739. Testing for JDBC breakage with SQL Server and query overrides. (David Gutteridge)",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2025-08-29T00:16:50.314Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
