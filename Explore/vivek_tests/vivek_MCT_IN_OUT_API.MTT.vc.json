@@ -62,6 +62,7 @@
       "retainFieldMetadata" : false,
       "useExactSrcNames" : false,
       "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
       "runtimeParameterData" : {
         "connectionRuntimeParameter" : false,
         "objectRuntimeParameter" : false
@@ -116,6 +117,7 @@
       "objectLabel" : "vivek_SS3.txt",
       "useExactSrcNames" : false,
       "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
       "targetSchemaMode" : "DONT_APPLY_CHANGES",
       "runtimeParameterData" : {
         "connectionRuntimeParameter" : false,
@@ -159,7 +161,8 @@
       "precision" : "100",
       "scale" : "0",
       "retentionPolicy" : "ON_SUCCESS_OR_WARNING",
-      "aggregationType" : "MAX"
+      "aggregationType" : "MAX",
+      "currentValue" : "test"
     }
   ],
   "hidden" : false,
@@ -171,8 +174,9 @@
   "schemaMode" : "async",
   "valid" : true,
   "parameterFileEncoding" : "UTF-8",
+  "optimizationPlan" : "NONE",
   "allowMaxFieldLength" : false,
   "specialCharacterSupport" : false,
   "midstreamPreview" : false,
-  "vcsExportTime" : "2025-10-27 15:52:46 PDT"
+  "vcsExportTime" : "2025-10-27 16:13:44 PDT"
 }
