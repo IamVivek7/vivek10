@@ -162,7 +162,7 @@
       "scale" : "0",
       "retentionPolicy" : "ON_SUCCESS_OR_WARNING",
       "aggregationType" : "MAX",
-      "currentValue" : "test"
+      "currentValue" : "testing"
     }
   ],
   "hidden" : false,
@@ -178,5 +178,5 @@
   "allowMaxFieldLength" : false,
   "specialCharacterSupport" : false,
   "midstreamPreview" : false,
-  "vcsExportTime" : "2025-10-27 16:13:44 PDT"
+  "vcsExportTime" : "2025-10-27 16:42:46 PDT"
 }
