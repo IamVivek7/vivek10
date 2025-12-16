@@ -129,6 +129,7 @@
     }
   ],
   "verbose" : false,
+  "lastRunTime" : 1765888314000,
   "mappingId" : "@7IJVdrbGOhJlykdwKf00Ev",
   "mappingTemplateName" : "Test_git",
   "sessionPropertiesList" : [
@@ -165,5 +166,5 @@
   "allowMaxFieldLength" : false,
   "specialCharacterSupport" : false,
   "midstreamPreview" : false,
-  "vcsExportTime" : "2025-12-16 04:31:50 PST"
+  "vcsExportTime" : "2025-12-16 04:32:56 PST"
 }
