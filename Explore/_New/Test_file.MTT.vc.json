@@ -1,0 +1,169 @@
+{
+  "name" : "Test_file",
+  "runtimeEnvironmentId" : "@81ymyPTILezh3CLnxFiheY",
+  "runtimeEnvironmentName" : "ASVivek4801",
+  "maxLogs" : 10,
+  "parameters" : [
+    {
+      "name" : "$Source$",
+      "type" : "EXTENDED_SOURCE",
+      "label" : "Source",
+      "uiProperties" : {
+        "connectionParameterized" : "false",
+        "isSelectDistinct" : "false",
+        "isMsrcFilterParameterized" : "false",
+        "isMsrcSortParameterized" : "false",
+        "objectParameterized" : "false",
+        "visible" : "false",
+        "originalPath" : "Source"
+      },
+      "sourceConnectionId" : "@2MmKl2FmPt5bW2xMWGB8M9",
+      "connectionName" : "PK_FF",
+      "newFlatFile" : false,
+      "newObject" : false,
+      "showBusinessNames" : false,
+      "naturalOrder" : true,
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "srcFFAttrs" : {
+        "delimiter" : ",",
+        "textQualifier" : "\"",
+        "headerLineNo" : 1,
+        "firstDataRow" : 2,
+        "rowDelimiter" : 0,
+        "consecutiveDelimiter" : false,
+        "multiDelimitersAsAnd" : true,
+        "firstDataRowAsHeader" : false,
+        "headerAndDataDelimiter" : 0
+      },
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "object" : {
+          "name" : "Service_Now_large_DS.csv",
+          "label" : "Service_Now_large_DS.csv",
+          "metadataUpdated" : false
+        },
+        "singleMode" : true,
+        "objects" : [
+          {
+            "name" : "Service_Now_large_DS.csv",
+            "label" : "Service_Now_large_DS.csv",
+            "metadataUpdated" : false
+          }
+        ]
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "runtimeParameterData" : {
+        "connectionRuntimeParameter" : false,
+        "objectRuntimeParameter" : false
+      },
+      "restmodernSource" : true,
+      "unspecified" : false,
+      "fileList" : false
+    },
+    {
+      "name" : "$Target$",
+      "type" : "TARGET",
+      "label" : "Target",
+      "uiProperties" : {
+        "connectionParameterized" : "false",
+        "objectParameterized" : "false",
+        "visible" : "false",
+        "supportApplyDDLChanges" : "true",
+        "originalPath" : "Target"
+      },
+      "targetConnectionId" : "@2MmKl2FmPt5bW2xMWGB8M9",
+      "connectionName" : "PK_FF",
+      "targetObject" : "New_File.csv",
+      "targetObjectLabel" : "New_File.csv",
+      "newFlatFile" : false,
+      "newObject" : true,
+      "showBusinessNames" : false,
+      "naturalOrder" : true,
+      "newObjectName" : "New_File.csv",
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "operationType" : "Insert",
+      "tgtFFAttrs" : {
+        "delimiter" : ",",
+        "textQualifier" : "\"",
+        "headerLineNo" : 1,
+        "rowDelimiter" : 0,
+        "consecutiveDelimiter" : false,
+        "multiDelimitersAsAnd" : true
+      },
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "singleMode" : true
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "objectName" : "New_File.csv",
+      "objectLabel" : "New_File.csv",
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "targetSchemaMode" : "DONT_APPLY_CHANGES",
+      "runtimeParameterData" : {
+        "connectionRuntimeParameter" : false,
+        "objectRuntimeParameter" : false
+      },
+      "targetSchemaProviderType" : "SELECTED_OBJECT",
+      "restmodernSource" : true,
+      "unspecified" : false,
+      "fileList" : false
+    }
+  ],
+  "verbose" : false,
+  "mappingId" : "@7IJVdrbGOhJlykdwKf00Ev",
+  "mappingTemplateName" : "Test_git",
+  "sessionPropertiesList" : [
+    {
+      "name" : "Allow Temporary Sequence for Pushdown",
+      "value" : "NO"
+    },
+    {
+      "name" : "Allow Temporary View for Pushdown",
+      "value" : "NO"
+    },
+    {
+      "name" : "Pushdown Optimization",
+      "value" : "None"
+    },
+    {
+      "name" : "Pushdown Optimization Context",
+      "value" : "None"
+    },
+    {
+      "name" : "Pushdown Optimization Fallback Option",
+      "value" : "Partial PDO"
+    }
+  ],
+  "hidden" : false,
+  "enableCrossSchemaPushdown" : true,
+  "enableParallelRun" : false,
+  "autoTunedApplied" : false,
+  "autoTunedAppliedType" : "NONE",
+  "paramFileType" : "PARAM_FILE_LOCAL",
+  "schemaMode" : "async",
+  "valid" : true,
+  "parameterFileEncoding" : "UTF-8",
+  "allowMaxFieldLength" : false,
+  "specialCharacterSupport" : false,
+  "midstreamPreview" : false,
+  "vcsExportTime" : "2025-12-16 04:31:50 PST"
+}

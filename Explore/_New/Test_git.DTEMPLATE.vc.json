@@ -1,0 +1,2152 @@
+{
+  "content" : {
+    "allowMaxFieldLength" : "false",
+    "bigIntConvertType" : "ONLY_BIGINT",
+    "documentType" : "MAPPING",
+    "name" : "Test_git",
+    "specialCharacterSupport" : "false",
+    "links" : [
+      {
+        "link" : "Source -> Target"
+      }
+    ],
+    "transformations" : [
+      {
+        "createTime" : "2025-12-16T12:28:16.991Z",
+        "name" : "Source",
+        "advancedProperties" : [
+          {
+            "name" : "Tracing Level",
+            "value" : "Normal"
+          },
+          {
+            "name" : "Output is deterministic",
+            "value" : "false"
+          },
+          {
+            "name" : "Thousand Separator",
+            "value" : "None"
+          },
+          {
+            "name" : "Decimal Separator",
+            "value" : "."
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "false",
+            "name" : "DefaultGroup",
+            "output" : "true"
+          }
+        ],
+        "sessionProperties" : [
+          {
+            "name" : "File Reader Truncate String Null",
+            "value" : "NO"
+          }
+        ],
+        "generateFilenamePort" : "false",
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "u_l_shipdate"
+            },
+            "name" : "u_l_shipdate",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_u_l_shipdate"
+            },
+            "name" : "dv_u_l_shipdate",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "u_l_discount"
+            },
+            "name" : "u_l_discount",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_u_l_discount"
+            },
+            "name" : "dv_u_l_discount",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "sys_import_state_comment"
+            },
+            "name" : "sys_import_state_comment",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_sys_import_state_comment"
+            },
+            "name" : "dv_sys_import_state_comment",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "u_l_suppkey"
+            },
+            "name" : "u_l_suppkey",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_u_l_suppkey"
+            },
+            "name" : "dv_u_l_suppkey",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "template_import_log"
+            },
+            "name" : "template_import_log",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_template_import_log"
+            },
+            "name" : "dv_template_import_log",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "link_template_import_log"
+            },
+            "name" : "link_template_import_log",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "sys_updated_on"
+            },
+            "name" : "sys_updated_on",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_sys_updated_on"
+            },
+            "name" : "dv_sys_updated_on",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "u_l_orderkey"
+            },
+            "name" : "u_l_orderkey",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_u_l_orderkey"
+            },
+            "name" : "dv_u_l_orderkey",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "sys_class_name"
+            },
+            "name" : "sys_class_name",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_sys_class_name"
+            },
+            "name" : "dv_sys_class_name",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "u_l_receiptdate"
+            },
+            "name" : "u_l_receiptdate",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_u_l_receiptdate"
+            },
+            "name" : "dv_u_l_receiptdate",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "sys_target_sys_id"
+            },
+            "name" : "sys_target_sys_id",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_sys_target_sys_id"
+            },
+            "name" : "dv_sys_target_sys_id",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "u_l_quantity"
+            },
+            "name" : "u_l_quantity",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_u_l_quantity"
+            },
+            "name" : "dv_u_l_quantity",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "u_l_returnflag"
+            },
+            "name" : "u_l_returnflag",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_u_l_returnflag"
+            },
+            "name" : "dv_u_l_returnflag",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "sys_id"
+            },
+            "name" : "sys_id",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_sys_id"
+            },
+            "name" : "dv_sys_id",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "sys_updated_by"
+            },
+            "name" : "sys_updated_by",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_sys_updated_by"
+            },
+            "name" : "dv_sys_updated_by",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "sys_created_on"
+            },
+            "name" : "sys_created_on",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_sys_created_on"
+            },
+            "name" : "dv_sys_created_on",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "sys_import_set"
+            },
+            "name" : "sys_import_set",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_sys_import_set"
+            },
+            "name" : "dv_sys_import_set",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "link_sys_import_set"
+            },
+            "name" : "link_sys_import_set",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "u_l_shipinstruct"
+            },
+            "name" : "u_l_shipinstruct",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_u_l_shipinstruct"
+            },
+            "name" : "dv_u_l_shipinstruct",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "u_l_comment"
+            },
+            "name" : "u_l_comment",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_u_l_comment"
+            },
+            "name" : "dv_u_l_comment",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "sys_transform_map"
+            },
+            "name" : "sys_transform_map",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_sys_transform_map"
+            },
+            "name" : "dv_sys_transform_map",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "link_sys_transform_map"
+            },
+            "name" : "link_sys_transform_map",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "u_l_linestatus"
+            },
+            "name" : "u_l_linestatus",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_u_l_linestatus"
+            },
+            "name" : "dv_u_l_linestatus",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "u_l_partkey"
+            },
+            "name" : "u_l_partkey",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_u_l_partkey"
+            },
+            "name" : "dv_u_l_partkey",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "sys_created_by"
+            },
+            "name" : "sys_created_by",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_sys_created_by"
+            },
+            "name" : "dv_sys_created_by",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "sys_import_row"
+            },
+            "name" : "sys_import_row",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_sys_import_row"
+            },
+            "name" : "dv_sys_import_row",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "sys_row_error"
+            },
+            "name" : "sys_row_error",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_sys_row_error"
+            },
+            "name" : "dv_sys_row_error",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "link_sys_row_error"
+            },
+            "name" : "link_sys_row_error",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "sys_target_table"
+            },
+            "name" : "sys_target_table",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_sys_target_table"
+            },
+            "name" : "dv_sys_target_table",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "u_l_commitdate"
+            },
+            "name" : "u_l_commitdate",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_u_l_commitdate"
+            },
+            "name" : "dv_u_l_commitdate",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "sys_mod_count"
+            },
+            "name" : "sys_mod_count",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_sys_mod_count"
+            },
+            "name" : "dv_sys_mod_count",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "import_set_run"
+            },
+            "name" : "import_set_run",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_import_set_run"
+            },
+            "name" : "dv_import_set_run",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "link_import_set_run"
+            },
+            "name" : "link_import_set_run",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "sys_tags"
+            },
+            "name" : "sys_tags",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_sys_tags"
+            },
+            "name" : "dv_sys_tags",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "sys_import_state"
+            },
+            "name" : "sys_import_state",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_sys_import_state"
+            },
+            "name" : "dv_sys_import_state",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "u_l_linenumber"
+            },
+            "name" : "u_l_linenumber",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_u_l_linenumber"
+            },
+            "name" : "dv_u_l_linenumber",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "u_l_shipmode"
+            },
+            "name" : "u_l_shipmode",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_u_l_shipmode"
+            },
+            "name" : "dv_u_l_shipmode",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "u_l_extendedprice"
+            },
+            "name" : "u_l_extendedprice",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_u_l_extendedprice"
+            },
+            "name" : "dv_u_l_extendedprice",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "u_l_tax"
+            },
+            "name" : "u_l_tax",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "dv_u_l_tax"
+            },
+            "name" : "dv_u_l_tax",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@2MmKl2FmPt5bW2xMWGB8M9",
+          "connectionName" : "PK_FF",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "CSVFile",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "Service_Now_large_DS.csv",
+            "label" : "Service_Now_large_DS.csv",
+            "objectName" : "Service_Now_large_DS.csv",
+            "path" : "Service_Now_large_DS.csv",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "u_l_shipdate",
+                "fieldType" : "CONNECTOR",
+                "label" : "u_l_shipdate",
+                "nativeName" : "u_l_shipdate",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_u_l_shipdate",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_u_l_shipdate",
+                "nativeName" : "dv_u_l_shipdate",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "u_l_discount",
+                "fieldType" : "CONNECTOR",
+                "label" : "u_l_discount",
+                "nativeName" : "u_l_discount",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_u_l_discount",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_u_l_discount",
+                "nativeName" : "dv_u_l_discount",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "sys_import_state_comment",
+                "fieldType" : "CONNECTOR",
+                "label" : "sys_import_state_comment",
+                "nativeName" : "sys_import_state_comment",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_sys_import_state_comment",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_sys_import_state_comment",
+                "nativeName" : "dv_sys_import_state_comment",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "u_l_suppkey",
+                "fieldType" : "CONNECTOR",
+                "label" : "u_l_suppkey",
+                "nativeName" : "u_l_suppkey",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_u_l_suppkey",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_u_l_suppkey",
+                "nativeName" : "dv_u_l_suppkey",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "template_import_log",
+                "fieldType" : "CONNECTOR",
+                "label" : "template_import_log",
+                "nativeName" : "template_import_log",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_template_import_log",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_template_import_log",
+                "nativeName" : "dv_template_import_log",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "link_template_import_log",
+                "fieldType" : "CONNECTOR",
+                "label" : "link_template_import_log",
+                "nativeName" : "link_template_import_log",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "sys_updated_on",
+                "fieldType" : "CONNECTOR",
+                "label" : "sys_updated_on",
+                "nativeName" : "sys_updated_on",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_sys_updated_on",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_sys_updated_on",
+                "nativeName" : "dv_sys_updated_on",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "u_l_orderkey",
+                "fieldType" : "CONNECTOR",
+                "label" : "u_l_orderkey",
+                "nativeName" : "u_l_orderkey",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_u_l_orderkey",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_u_l_orderkey",
+                "nativeName" : "dv_u_l_orderkey",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "sys_class_name",
+                "fieldType" : "CONNECTOR",
+                "label" : "sys_class_name",
+                "nativeName" : "sys_class_name",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_sys_class_name",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_sys_class_name",
+                "nativeName" : "dv_sys_class_name",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "u_l_receiptdate",
+                "fieldType" : "CONNECTOR",
+                "label" : "u_l_receiptdate",
+                "nativeName" : "u_l_receiptdate",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_u_l_receiptdate",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_u_l_receiptdate",
+                "nativeName" : "dv_u_l_receiptdate",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "sys_target_sys_id",
+                "fieldType" : "CONNECTOR",
+                "label" : "sys_target_sys_id",
+                "nativeName" : "sys_target_sys_id",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_sys_target_sys_id",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_sys_target_sys_id",
+                "nativeName" : "dv_sys_target_sys_id",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "u_l_quantity",
+                "fieldType" : "CONNECTOR",
+                "label" : "u_l_quantity",
+                "nativeName" : "u_l_quantity",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_u_l_quantity",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_u_l_quantity",
+                "nativeName" : "dv_u_l_quantity",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "u_l_returnflag",
+                "fieldType" : "CONNECTOR",
+                "label" : "u_l_returnflag",
+                "nativeName" : "u_l_returnflag",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_u_l_returnflag",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_u_l_returnflag",
+                "nativeName" : "dv_u_l_returnflag",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "sys_id",
+                "fieldType" : "CONNECTOR",
+                "label" : "sys_id",
+                "nativeName" : "sys_id",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_sys_id",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_sys_id",
+                "nativeName" : "dv_sys_id",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "sys_updated_by",
+                "fieldType" : "CONNECTOR",
+                "label" : "sys_updated_by",
+                "nativeName" : "sys_updated_by",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_sys_updated_by",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_sys_updated_by",
+                "nativeName" : "dv_sys_updated_by",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "sys_created_on",
+                "fieldType" : "CONNECTOR",
+                "label" : "sys_created_on",
+                "nativeName" : "sys_created_on",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_sys_created_on",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_sys_created_on",
+                "nativeName" : "dv_sys_created_on",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "sys_import_set",
+                "fieldType" : "CONNECTOR",
+                "label" : "sys_import_set",
+                "nativeName" : "sys_import_set",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_sys_import_set",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_sys_import_set",
+                "nativeName" : "dv_sys_import_set",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "link_sys_import_set",
+                "fieldType" : "CONNECTOR",
+                "label" : "link_sys_import_set",
+                "nativeName" : "link_sys_import_set",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "u_l_shipinstruct",
+                "fieldType" : "CONNECTOR",
+                "label" : "u_l_shipinstruct",
+                "nativeName" : "u_l_shipinstruct",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_u_l_shipinstruct",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_u_l_shipinstruct",
+                "nativeName" : "dv_u_l_shipinstruct",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "u_l_comment",
+                "fieldType" : "CONNECTOR",
+                "label" : "u_l_comment",
+                "nativeName" : "u_l_comment",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_u_l_comment",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_u_l_comment",
+                "nativeName" : "dv_u_l_comment",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "sys_transform_map",
+                "fieldType" : "CONNECTOR",
+                "label" : "sys_transform_map",
+                "nativeName" : "sys_transform_map",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_sys_transform_map",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_sys_transform_map",
+                "nativeName" : "dv_sys_transform_map",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "link_sys_transform_map",
+                "fieldType" : "CONNECTOR",
+                "label" : "link_sys_transform_map",
+                "nativeName" : "link_sys_transform_map",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "u_l_linestatus",
+                "fieldType" : "CONNECTOR",
+                "label" : "u_l_linestatus",
+                "nativeName" : "u_l_linestatus",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_u_l_linestatus",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_u_l_linestatus",
+                "nativeName" : "dv_u_l_linestatus",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "u_l_partkey",
+                "fieldType" : "CONNECTOR",
+                "label" : "u_l_partkey",
+                "nativeName" : "u_l_partkey",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_u_l_partkey",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_u_l_partkey",
+                "nativeName" : "dv_u_l_partkey",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "sys_created_by",
+                "fieldType" : "CONNECTOR",
+                "label" : "sys_created_by",
+                "nativeName" : "sys_created_by",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_sys_created_by",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_sys_created_by",
+                "nativeName" : "dv_sys_created_by",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "sys_import_row",
+                "fieldType" : "CONNECTOR",
+                "label" : "sys_import_row",
+                "nativeName" : "sys_import_row",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_sys_import_row",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_sys_import_row",
+                "nativeName" : "dv_sys_import_row",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "sys_row_error",
+                "fieldType" : "CONNECTOR",
+                "label" : "sys_row_error",
+                "nativeName" : "sys_row_error",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_sys_row_error",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_sys_row_error",
+                "nativeName" : "dv_sys_row_error",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "link_sys_row_error",
+                "fieldType" : "CONNECTOR",
+                "label" : "link_sys_row_error",
+                "nativeName" : "link_sys_row_error",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "sys_target_table",
+                "fieldType" : "CONNECTOR",
+                "label" : "sys_target_table",
+                "nativeName" : "sys_target_table",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_sys_target_table",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_sys_target_table",
+                "nativeName" : "dv_sys_target_table",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "u_l_commitdate",
+                "fieldType" : "CONNECTOR",
+                "label" : "u_l_commitdate",
+                "nativeName" : "u_l_commitdate",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_u_l_commitdate",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_u_l_commitdate",
+                "nativeName" : "dv_u_l_commitdate",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "sys_mod_count",
+                "fieldType" : "CONNECTOR",
+                "label" : "sys_mod_count",
+                "nativeName" : "sys_mod_count",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_sys_mod_count",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_sys_mod_count",
+                "nativeName" : "dv_sys_mod_count",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "import_set_run",
+                "fieldType" : "CONNECTOR",
+                "label" : "import_set_run",
+                "nativeName" : "import_set_run",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_import_set_run",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_import_set_run",
+                "nativeName" : "dv_import_set_run",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "link_import_set_run",
+                "fieldType" : "CONNECTOR",
+                "label" : "link_import_set_run",
+                "nativeName" : "link_import_set_run",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "sys_tags",
+                "fieldType" : "CONNECTOR",
+                "label" : "sys_tags",
+                "nativeName" : "sys_tags",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_sys_tags",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_sys_tags",
+                "nativeName" : "dv_sys_tags",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "sys_import_state",
+                "fieldType" : "CONNECTOR",
+                "label" : "sys_import_state",
+                "nativeName" : "sys_import_state",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_sys_import_state",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_sys_import_state",
+                "nativeName" : "dv_sys_import_state",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "u_l_linenumber",
+                "fieldType" : "CONNECTOR",
+                "label" : "u_l_linenumber",
+                "nativeName" : "u_l_linenumber",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_u_l_linenumber",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_u_l_linenumber",
+                "nativeName" : "dv_u_l_linenumber",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "u_l_shipmode",
+                "fieldType" : "CONNECTOR",
+                "label" : "u_l_shipmode",
+                "nativeName" : "u_l_shipmode",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_u_l_shipmode",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_u_l_shipmode",
+                "nativeName" : "dv_u_l_shipmode",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "u_l_extendedprice",
+                "fieldType" : "CONNECTOR",
+                "label" : "u_l_extendedprice",
+                "nativeName" : "u_l_extendedprice",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_u_l_extendedprice",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_u_l_extendedprice",
+                "nativeName" : "dv_u_l_extendedprice",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "u_l_tax",
+                "fieldType" : "CONNECTOR",
+                "label" : "u_l_tax",
+                "nativeName" : "u_l_tax",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "dv_u_l_tax",
+                "fieldType" : "CONNECTOR",
+                "label" : "dv_u_l_tax",
+                "nativeName" : "dv_u_l_tax",
+                "nativeType" : "nstring",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Service_Now_large_DS.csv"
+                  }
+                ]
+              }
+            ],
+            "fileAttrs" : {
+              "consecutiveDelimiter" : "false",
+              "delimiter" : ",",
+              "firstDataRow" : 2,
+              "firstDataRowAsHeader" : "false",
+              "headerAndDataDelimiter" : 0,
+              "headerLineNo" : 1,
+              "multiDelimitersAsAnd" : "true",
+              "rowDelimiter" : 0,
+              "textQualifier" : "\""
+            }
+          },
+          "readOptions" : {
+            "commandType" : 0,
+            "descending" : "false",
+            "queryAll" : "false",
+            "rowLimit" : 0,
+            "selectDistinct" : "false"
+          }
+        }
+      },
+      {
+        "createTime" : "2025-12-16T12:28:16.991Z",
+        "name" : "Target",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          },
+          {
+            "name" : "Thousand Separator",
+            "value" : "None"
+          },
+          {
+            "name" : "Decimal Separator",
+            "value" : "."
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "createTarget" : "true",
+        "fieldMappingMode" : "BY_NAME",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "targetFieldsOrdered" : "false",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "dataAdapter" : {
+          "connectionId" : "saas:@2MmKl2FmPt5bW2xMWGB8M9",
+          "connectionName" : "PK_FF",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "CSVFile",
+          "useDynamicFileName" : "false",
+          "bulkOptions" : {
+            "hardDelete" : "false",
+            "maxRowsPerRequest" : 0,
+            "monitorBulk" : "false",
+            "monitorBulkV2" : "false",
+            "pkChunkingEnabled" : "false",
+            "pkChunkingSize" : 0,
+            "serialMode" : "false",
+            "useBulkApi" : "false",
+            "useBulkApiV2" : "false"
+          },
+          "object" : {
+            "name" : "New_File.csv",
+            "label" : "New_File.csv",
+            "path" : "New_File.csv",
+            "retainMetadata" : "false",
+            "fileAttrs" : {
+              "consecutiveDelimiter" : "false",
+              "delimiter" : ",",
+              "firstDataRow" : 2,
+              "firstDataRowAsHeader" : "false",
+              "headerAndDataDelimiter" : 0,
+              "headerLineNo" : 1,
+              "multiDelimitersAsAnd" : "true",
+              "rowDelimiter" : 0,
+              "textQualifier" : "\""
+            }
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "false",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false"
+          }
+        }
+      }
+    ]
+  },
+  "vcsExportTime" : "2025-12-16 04:31:50 PST"
+}
