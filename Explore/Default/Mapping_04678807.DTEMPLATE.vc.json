@@ -1,0 +1,2391 @@
+{
+  "content" : {
+    "allowMaxFieldLength" : "false",
+    "bigIntConvertType" : "ONLY_BIGINT",
+    "documentType" : "MAPPING",
+    "name" : "Mapping_04678807",
+    "specialCharacterSupport" : "false",
+    "links" : [
+      {
+        "link" : "Source -> Target"
+      }
+    ],
+    "transformations" : [
+      {
+        "augmented" : "false",
+        "createTime" : "2024-02-07T09:34:24.261Z",
+        "name" : "Source",
+        "advancedProperties" : [
+          {
+            "name" : "Tracing Level",
+            "value" : "Normal"
+          },
+          {
+            "name" : "Output is deterministic",
+            "value" : "false"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "false",
+            "name" : "DefaultGroup",
+            "output" : "true"
+          }
+        ],
+        "generateFilenamePort" : "false",
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "Intake"
+            },
+            "name" : "Intake",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 35,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "SnapshotDate"
+            },
+            "name" : "SnapshotDate",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "AQF_level"
+            },
+            "name" : "AQF_level",
+            "platformType" : {
+              "name" : "integer"
+            },
+            "precision" : 10,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ProgramGroupName"
+            },
+            "name" : "ProgramGroupName",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1000,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "Stage"
+            },
+            "name" : "Stage",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "StudentNo"
+            },
+            "name" : "StudentNo",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 36,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CurrentMeasureType"
+            },
+            "name" : "CurrentMeasureType",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 20,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "MeasureTypeTarget"
+            },
+            "name" : "MeasureTypeTarget",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 20,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "AttendTypeShort"
+            },
+            "name" : "AttendTypeShort",
+            "platformType" : {
+              "name" : "binary"
+            },
+            "precision" : 1300,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "B2B"
+            },
+            "name" : "B2B",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 40,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "Channel"
+            },
+            "name" : "Channel",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1300,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ChannelTarget"
+            },
+            "name" : "ChannelTarget",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1300,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CampusName"
+            },
+            "name" : "CampusName",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 4000,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ClassLocation"
+            },
+            "name" : "ClassLocation",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CollegeCode_Legacy"
+            },
+            "name" : "CollegeCode_Legacy",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CollegeName"
+            },
+            "name" : "CollegeName",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CodeR"
+            },
+            "name" : "CodeR",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 2048,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CommencingStudyPeriodID"
+            },
+            "name" : "CommencingStudyPeriodID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 64,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CountryCitizen"
+            },
+            "name" : "CountryCitizen",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 4000,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "Downgrade"
+            },
+            "name" : "Downgrade",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "EFTSL_Completed"
+            },
+            "name" : "EFTSL_Completed",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 38,
+            "scale" : 4
+          },
+          {
+            "adapterField" : {
+              "name" : "EFTSL_Enrolled"
+            },
+            "name" : "EFTSL_Enrolled",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 38,
+            "scale" : 4
+          },
+          {
+            "adapterField" : {
+              "name" : "EFTSL_Incomplete"
+            },
+            "name" : "EFTSL_Incomplete",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 38,
+            "scale" : 4
+          },
+          {
+            "adapterField" : {
+              "name" : "EFTSL_Load"
+            },
+            "name" : "EFTSL_Load",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 38,
+            "scale" : 4
+          },
+          {
+            "adapterField" : {
+              "name" : "EFTSL_Total"
+            },
+            "name" : "EFTSL_Total",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 38,
+            "scale" : 4
+          },
+          {
+            "adapterField" : {
+              "name" : "EFTSL_ToBeCompleted"
+            },
+            "name" : "EFTSL_ToBeCompleted",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 38,
+            "scale" : 4
+          },
+          {
+            "adapterField" : {
+              "name" : "eMail"
+            },
+            "name" : "eMail",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1000,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "eMailOther"
+            },
+            "name" : "eMailOther",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1000,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "EnrolledSubjectWithdrawn"
+            },
+            "name" : "EnrolledSubjectWithdrawn",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "EnrolmentsWithSubjects"
+            },
+            "name" : "EnrolmentsWithSubjects",
+            "platformType" : {
+              "name" : "integer"
+            },
+            "precision" : 10,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "EnrolmentID"
+            },
+            "name" : "EnrolmentID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 110,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "EnrolmentName"
+            },
+            "name" : "EnrolmentName",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 4000,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "Faculty"
+            },
+            "name" : "Faculty",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1306,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "FinalSubjectWithdrawnDate"
+            },
+            "name" : "FinalSubjectWithdrawnDate",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "FirstStudyPeriod"
+            },
+            "name" : "FirstStudyPeriod",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1000,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "Grade"
+            },
+            "name" : "Grade",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 35,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "International"
+            },
+            "name" : "International",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1300,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "MacroMeasureType"
+            },
+            "name" : "MacroMeasureType",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 18,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "Mobile"
+            },
+            "name" : "Mobile",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1000,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "NewUpgradeFlag"
+            },
+            "name" : "NewUpgradeFlag",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "PaymentType"
+            },
+            "name" : "PaymentType",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ProgramEFTSL"
+            },
+            "name" : "ProgramEFTSL",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 25,
+            "scale" : 8
+          },
+          {
+            "adapterField" : {
+              "name" : "ProgramCode"
+            },
+            "name" : "ProgramCode",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ProgramTypeGroup"
+            },
+            "name" : "ProgramTypeGroup",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ProgramIntakeID"
+            },
+            "name" : "ProgramIntakeID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 24,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ProgramType"
+            },
+            "name" : "ProgramType",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1300,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ProgramTypeFull"
+            },
+            "name" : "ProgramTypeFull",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1300,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ProviderName"
+            },
+            "name" : "ProviderName",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 255,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ReasonLost"
+            },
+            "name" : "ReasonLost",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1000,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "SalesOwnerID"
+            },
+            "name" : "SalesOwnerID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1300,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "SalesStaffAccount"
+            },
+            "name" : "SalesStaffAccount",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 60,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "Schools"
+            },
+            "name" : "Schools",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 11,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "StudentName"
+            },
+            "name" : "StudentName",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 2001,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "StudentProgramID"
+            },
+            "name" : "StudentProgramID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1036,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ETR"
+            },
+            "name" : "ETR",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 16,
+            "scale" : 10
+          },
+          {
+            "adapterField" : {
+              "name" : "FinanceTarget"
+            },
+            "name" : "FinanceTarget",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 16,
+            "scale" : 10
+          },
+          {
+            "adapterField" : {
+              "name" : "ClassCampus"
+            },
+            "name" : "ClassCampus",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 120,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ClassCode"
+            },
+            "name" : "ClassCode",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 113,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ClassDayOfWeek"
+            },
+            "name" : "ClassDayOfWeek",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 3,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ClassFinishTime"
+            },
+            "name" : "ClassFinishTime",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 83,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ClassSizeEnrolled"
+            },
+            "name" : "ClassSizeEnrolled",
+            "platformType" : {
+              "name" : "double"
+            },
+            "precision" : 15,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ClassStartTime"
+            },
+            "name" : "ClassStartTime",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 83,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ClassName"
+            },
+            "name" : "ClassName",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 80,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ClassStartDate"
+            },
+            "name" : "ClassStartDate",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "ClassType"
+            },
+            "name" : "ClassType",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 9,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "EnrolledSubjectID"
+            },
+            "name" : "EnrolledSubjectID",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 373,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ES_EFTSL"
+            },
+            "name" : "ES_EFTSL",
+            "platformType" : {
+              "name" : "double"
+            },
+            "precision" : 15,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "LecturerName"
+            },
+            "name" : "LecturerName",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 4000,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "LMS_DaysSinceLastLogin"
+            },
+            "name" : "LMS_DaysSinceLastLogin",
+            "platformType" : {
+              "name" : "integer"
+            },
+            "precision" : 10,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "LMS_LoggedIn"
+            },
+            "name" : "LMS_LoggedIn",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "LMS_Minutes"
+            },
+            "name" : "LMS_Minutes",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 38,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "LMS_Week0Minutes"
+            },
+            "name" : "LMS_Week0Minutes",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 38,
+            "scale" : 3
+          },
+          {
+            "adapterField" : {
+              "name" : "LMS_Week1Minutes"
+            },
+            "name" : "LMS_Week1Minutes",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 38,
+            "scale" : 3
+          },
+          {
+            "adapterField" : {
+              "name" : "LMS_Week2Minutes"
+            },
+            "name" : "LMS_Week2Minutes",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 38,
+            "scale" : 3
+          },
+          {
+            "adapterField" : {
+              "name" : "LMS_Week3Minutes"
+            },
+            "name" : "LMS_Week3Minutes",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 38,
+            "scale" : 3
+          },
+          {
+            "adapterField" : {
+              "name" : "MainClass"
+            },
+            "name" : "MainClass",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "MaxStudents"
+            },
+            "name" : "MaxStudents",
+            "platformType" : {
+              "name" : "double"
+            },
+            "precision" : 15,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "NoSessions"
+            },
+            "name" : "NoSessions",
+            "platformType" : {
+              "name" : "double"
+            },
+            "precision" : 15,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "RegistrationMethod"
+            },
+            "name" : "RegistrationMethod",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 135,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "StudentEFTSL_Load"
+            },
+            "name" : "StudentEFTSL_Load",
+            "platformType" : {
+              "name" : "double"
+            },
+            "precision" : 15,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "SubjectCode"
+            },
+            "name" : "SubjectCode",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 200,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "SubjectCount"
+            },
+            "name" : "SubjectCount",
+            "platformType" : {
+              "name" : "integer"
+            },
+            "precision" : 10,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "SubjectName"
+            },
+            "name" : "SubjectName",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 1000,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@43E5PoyxhqRlzuaZqHYeOJ",
+          "connectionName" : "SQL_server_04587573",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "SqlServer",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "IntakeLoadHistory",
+            "label" : "IntakeLoadHistory",
+            "objectName" : "IntakeLoadHistory",
+            "path" : "IntakeLoadHistory",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "Intake",
+                "fieldType" : "CONNECTOR",
+                "label" : "Intake",
+                "nativeName" : "Intake",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 35,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "SnapshotDate",
+                "fieldType" : "CONNECTOR",
+                "label" : "SnapshotDate",
+                "nativeName" : "SnapshotDate",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "AQF_level",
+                "fieldType" : "CONNECTOR",
+                "label" : "AQF_level",
+                "nativeName" : "AQF_level",
+                "nativeType" : "integer",
+                "original" : "false",
+                "precision" : 10,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ProgramGroupName",
+                "fieldType" : "CONNECTOR",
+                "label" : "ProgramGroupName",
+                "nativeName" : "ProgramGroupName",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 1000,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "Stage",
+                "fieldType" : "CONNECTOR",
+                "label" : "Stage",
+                "nativeName" : "Stage",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "StudentNo",
+                "fieldType" : "CONNECTOR",
+                "label" : "StudentNo",
+                "nativeName" : "StudentNo",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 36,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "CurrentMeasureType",
+                "fieldType" : "CONNECTOR",
+                "label" : "CurrentMeasureType",
+                "nativeName" : "CurrentMeasureType",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 20,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "MeasureTypeTarget",
+                "fieldType" : "CONNECTOR",
+                "label" : "MeasureTypeTarget",
+                "nativeName" : "MeasureTypeTarget",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 20,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "AttendTypeShort",
+                "fieldType" : "CONNECTOR",
+                "label" : "AttendTypeShort",
+                "nativeName" : "AttendTypeShort",
+                "nativeType" : "binary",
+                "original" : "false",
+                "precision" : 1300,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "B2B",
+                "fieldType" : "CONNECTOR",
+                "label" : "B2B",
+                "nativeName" : "B2B",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 40,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "Channel",
+                "fieldType" : "CONNECTOR",
+                "label" : "Channel",
+                "nativeName" : "Channel",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 1300,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ChannelTarget",
+                "fieldType" : "CONNECTOR",
+                "label" : "ChannelTarget",
+                "nativeName" : "ChannelTarget",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 1300,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "CampusName",
+                "fieldType" : "CONNECTOR",
+                "label" : "CampusName",
+                "nativeName" : "CampusName",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 4000,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ClassLocation",
+                "fieldType" : "CONNECTOR",
+                "label" : "ClassLocation",
+                "nativeName" : "ClassLocation",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "CollegeCode_Legacy",
+                "fieldType" : "CONNECTOR",
+                "label" : "CollegeCode_Legacy",
+                "nativeName" : "CollegeCode_Legacy",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "CollegeName",
+                "fieldType" : "CONNECTOR",
+                "label" : "CollegeName",
+                "nativeName" : "CollegeName",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "CodeR",
+                "fieldType" : "CONNECTOR",
+                "label" : "CodeR",
+                "nativeName" : "CodeR",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 2048,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "CommencingStudyPeriodID",
+                "fieldType" : "CONNECTOR",
+                "label" : "CommencingStudyPeriodID",
+                "nativeName" : "CommencingStudyPeriodID",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 64,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "CountryCitizen",
+                "fieldType" : "CONNECTOR",
+                "label" : "CountryCitizen",
+                "nativeName" : "CountryCitizen",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 4000,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "Downgrade",
+                "fieldType" : "CONNECTOR",
+                "label" : "Downgrade",
+                "nativeName" : "Downgrade",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "EFTSL_Completed",
+                "fieldType" : "CONNECTOR",
+                "label" : "EFTSL_Completed",
+                "nativeName" : "EFTSL_Completed",
+                "nativeType" : "decimal",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 4,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "EFTSL_Enrolled",
+                "fieldType" : "CONNECTOR",
+                "label" : "EFTSL_Enrolled",
+                "nativeName" : "EFTSL_Enrolled",
+                "nativeType" : "decimal",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 4,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "EFTSL_Incomplete",
+                "fieldType" : "CONNECTOR",
+                "label" : "EFTSL_Incomplete",
+                "nativeName" : "EFTSL_Incomplete",
+                "nativeType" : "decimal",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 4,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "EFTSL_Load",
+                "fieldType" : "CONNECTOR",
+                "label" : "EFTSL_Load",
+                "nativeName" : "EFTSL_Load",
+                "nativeType" : "decimal",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 4,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "EFTSL_Total",
+                "fieldType" : "CONNECTOR",
+                "label" : "EFTSL_Total",
+                "nativeName" : "EFTSL_Total",
+                "nativeType" : "decimal",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 4,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "EFTSL_ToBeCompleted",
+                "fieldType" : "CONNECTOR",
+                "label" : "EFTSL_ToBeCompleted",
+                "nativeName" : "EFTSL_ToBeCompleted",
+                "nativeType" : "decimal",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 4,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "eMail",
+                "fieldType" : "CONNECTOR",
+                "label" : "eMail",
+                "nativeName" : "eMail",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 1000,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "eMailOther",
+                "fieldType" : "CONNECTOR",
+                "label" : "eMailOther",
+                "nativeName" : "eMailOther",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 1000,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "EnrolledSubjectWithdrawn",
+                "fieldType" : "CONNECTOR",
+                "label" : "EnrolledSubjectWithdrawn",
+                "nativeName" : "EnrolledSubjectWithdrawn",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "EnrolmentsWithSubjects",
+                "fieldType" : "CONNECTOR",
+                "label" : "EnrolmentsWithSubjects",
+                "nativeName" : "EnrolmentsWithSubjects",
+                "nativeType" : "integer",
+                "original" : "false",
+                "precision" : 10,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "EnrolmentID",
+                "fieldType" : "CONNECTOR",
+                "label" : "EnrolmentID",
+                "nativeName" : "EnrolmentID",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 110,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "EnrolmentName",
+                "fieldType" : "CONNECTOR",
+                "label" : "EnrolmentName",
+                "nativeName" : "EnrolmentName",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 4000,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "Faculty",
+                "fieldType" : "CONNECTOR",
+                "label" : "Faculty",
+                "nativeName" : "Faculty",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 1306,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "FinalSubjectWithdrawnDate",
+                "fieldType" : "CONNECTOR",
+                "label" : "FinalSubjectWithdrawnDate",
+                "nativeName" : "FinalSubjectWithdrawnDate",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "FirstStudyPeriod",
+                "fieldType" : "CONNECTOR",
+                "label" : "FirstStudyPeriod",
+                "nativeName" : "FirstStudyPeriod",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 1000,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "Grade",
+                "fieldType" : "CONNECTOR",
+                "label" : "Grade",
+                "nativeName" : "Grade",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 35,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "International",
+                "fieldType" : "CONNECTOR",
+                "label" : "International",
+                "nativeName" : "International",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 1300,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "MacroMeasureType",
+                "fieldType" : "CONNECTOR",
+                "label" : "MacroMeasureType",
+                "nativeName" : "MacroMeasureType",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 18,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "Mobile",
+                "fieldType" : "CONNECTOR",
+                "label" : "Mobile",
+                "nativeName" : "Mobile",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 1000,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "NewUpgradeFlag",
+                "fieldType" : "CONNECTOR",
+                "label" : "NewUpgradeFlag",
+                "nativeName" : "NewUpgradeFlag",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "PaymentType",
+                "fieldType" : "CONNECTOR",
+                "label" : "PaymentType",
+                "nativeName" : "PaymentType",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ProgramEFTSL",
+                "fieldType" : "CONNECTOR",
+                "label" : "ProgramEFTSL",
+                "nativeName" : "ProgramEFTSL",
+                "nativeType" : "decimal",
+                "original" : "false",
+                "precision" : 25,
+                "scale" : 8,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ProgramCode",
+                "fieldType" : "CONNECTOR",
+                "label" : "ProgramCode",
+                "nativeName" : "ProgramCode",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ProgramTypeGroup",
+                "fieldType" : "CONNECTOR",
+                "label" : "ProgramTypeGroup",
+                "nativeName" : "ProgramTypeGroup",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ProgramIntakeID",
+                "fieldType" : "CONNECTOR",
+                "label" : "ProgramIntakeID",
+                "nativeName" : "ProgramIntakeID",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 24,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ProgramType",
+                "fieldType" : "CONNECTOR",
+                "label" : "ProgramType",
+                "nativeName" : "ProgramType",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 1300,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ProgramTypeFull",
+                "fieldType" : "CONNECTOR",
+                "label" : "ProgramTypeFull",
+                "nativeName" : "ProgramTypeFull",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 1300,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ProviderName",
+                "fieldType" : "CONNECTOR",
+                "label" : "ProviderName",
+                "nativeName" : "ProviderName",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 255,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ReasonLost",
+                "fieldType" : "CONNECTOR",
+                "label" : "ReasonLost",
+                "nativeName" : "ReasonLost",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 1000,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "SalesOwnerID",
+                "fieldType" : "CONNECTOR",
+                "label" : "SalesOwnerID",
+                "nativeName" : "SalesOwnerID",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 1300,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "SalesStaffAccount",
+                "fieldType" : "CONNECTOR",
+                "label" : "SalesStaffAccount",
+                "nativeName" : "SalesStaffAccount",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 60,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "Schools",
+                "fieldType" : "CONNECTOR",
+                "label" : "Schools",
+                "nativeName" : "Schools",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 11,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "StudentName",
+                "fieldType" : "CONNECTOR",
+                "label" : "StudentName",
+                "nativeName" : "StudentName",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 2001,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "StudentProgramID",
+                "fieldType" : "CONNECTOR",
+                "label" : "StudentProgramID",
+                "nativeName" : "StudentProgramID",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 1036,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ETR",
+                "fieldType" : "CONNECTOR",
+                "label" : "ETR",
+                "nativeName" : "ETR",
+                "nativeType" : "numeric",
+                "original" : "false",
+                "precision" : 16,
+                "scale" : 10,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "FinanceTarget",
+                "fieldType" : "CONNECTOR",
+                "label" : "FinanceTarget",
+                "nativeName" : "FinanceTarget",
+                "nativeType" : "numeric",
+                "original" : "false",
+                "precision" : 16,
+                "scale" : 10,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ClassCampus",
+                "fieldType" : "CONNECTOR",
+                "label" : "ClassCampus",
+                "nativeName" : "ClassCampus",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 120,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ClassCode",
+                "fieldType" : "CONNECTOR",
+                "label" : "ClassCode",
+                "nativeName" : "ClassCode",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 113,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ClassDayOfWeek",
+                "fieldType" : "CONNECTOR",
+                "label" : "ClassDayOfWeek",
+                "nativeName" : "ClassDayOfWeek",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 3,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ClassFinishTime",
+                "fieldType" : "CONNECTOR",
+                "label" : "ClassFinishTime",
+                "nativeName" : "ClassFinishTime",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 83,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ClassSizeEnrolled",
+                "fieldType" : "CONNECTOR",
+                "label" : "ClassSizeEnrolled",
+                "nativeName" : "ClassSizeEnrolled",
+                "nativeType" : "float",
+                "original" : "false",
+                "precision" : 15,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ClassStartTime",
+                "fieldType" : "CONNECTOR",
+                "label" : "ClassStartTime",
+                "nativeName" : "ClassStartTime",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 83,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ClassName",
+                "fieldType" : "CONNECTOR",
+                "label" : "ClassName",
+                "nativeName" : "ClassName",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 80,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ClassStartDate",
+                "fieldType" : "CONNECTOR",
+                "label" : "ClassStartDate",
+                "nativeName" : "ClassStartDate",
+                "nativeType" : "timestamp",
+                "original" : "false",
+                "precision" : 23,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ClassType",
+                "fieldType" : "CONNECTOR",
+                "label" : "ClassType",
+                "nativeName" : "ClassType",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 9,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "EnrolledSubjectID",
+                "fieldType" : "CONNECTOR",
+                "label" : "EnrolledSubjectID",
+                "nativeName" : "EnrolledSubjectID",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 373,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "ES_EFTSL",
+                "fieldType" : "CONNECTOR",
+                "label" : "ES_EFTSL",
+                "nativeName" : "ES_EFTSL",
+                "nativeType" : "float",
+                "original" : "false",
+                "precision" : 15,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "LecturerName",
+                "fieldType" : "CONNECTOR",
+                "label" : "LecturerName",
+                "nativeName" : "LecturerName",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 4000,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "LMS_DaysSinceLastLogin",
+                "fieldType" : "CONNECTOR",
+                "label" : "LMS_DaysSinceLastLogin",
+                "nativeName" : "LMS_DaysSinceLastLogin",
+                "nativeType" : "integer",
+                "original" : "false",
+                "precision" : 10,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "LMS_LoggedIn",
+                "fieldType" : "CONNECTOR",
+                "label" : "LMS_LoggedIn",
+                "nativeName" : "LMS_LoggedIn",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "LMS_Minutes",
+                "fieldType" : "CONNECTOR",
+                "label" : "LMS_Minutes",
+                "nativeName" : "LMS_Minutes",
+                "nativeType" : "numeric",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "LMS_Week0Minutes",
+                "fieldType" : "CONNECTOR",
+                "label" : "LMS_Week0Minutes",
+                "nativeName" : "LMS_Week0Minutes",
+                "nativeType" : "numeric",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "LMS_Week1Minutes",
+                "fieldType" : "CONNECTOR",
+                "label" : "LMS_Week1Minutes",
+                "nativeName" : "LMS_Week1Minutes",
+                "nativeType" : "numeric",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "LMS_Week2Minutes",
+                "fieldType" : "CONNECTOR",
+                "label" : "LMS_Week2Minutes",
+                "nativeName" : "LMS_Week2Minutes",
+                "nativeType" : "numeric",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "LMS_Week3Minutes",
+                "fieldType" : "CONNECTOR",
+                "label" : "LMS_Week3Minutes",
+                "nativeName" : "LMS_Week3Minutes",
+                "nativeType" : "numeric",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 3,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "MainClass",
+                "fieldType" : "CONNECTOR",
+                "label" : "MainClass",
+                "nativeName" : "MainClass",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 1,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "MaxStudents",
+                "fieldType" : "CONNECTOR",
+                "label" : "MaxStudents",
+                "nativeName" : "MaxStudents",
+                "nativeType" : "float",
+                "original" : "false",
+                "precision" : 15,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "NoSessions",
+                "fieldType" : "CONNECTOR",
+                "label" : "NoSessions",
+                "nativeName" : "NoSessions",
+                "nativeType" : "float",
+                "original" : "false",
+                "precision" : 15,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "RegistrationMethod",
+                "fieldType" : "CONNECTOR",
+                "label" : "RegistrationMethod",
+                "nativeName" : "RegistrationMethod",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 135,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "StudentEFTSL_Load",
+                "fieldType" : "CONNECTOR",
+                "label" : "StudentEFTSL_Load",
+                "nativeName" : "StudentEFTSL_Load",
+                "nativeType" : "float",
+                "original" : "false",
+                "precision" : 15,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "SubjectCode",
+                "fieldType" : "CONNECTOR",
+                "label" : "SubjectCode",
+                "nativeName" : "SubjectCode",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 200,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "SubjectCount",
+                "fieldType" : "CONNECTOR",
+                "label" : "SubjectCount",
+                "nativeName" : "SubjectCount",
+                "nativeType" : "integer",
+                "original" : "false",
+                "precision" : 10,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              },
+              {
+                "name" : "SubjectName",
+                "fieldType" : "CONNECTOR",
+                "label" : "SubjectName",
+                "nativeName" : "SubjectName",
+                "nativeType" : "nvarchar",
+                "original" : "false",
+                "precision" : 1000,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "IntakeLoadHistory"
+                  }
+                ]
+              }
+            ]
+          },
+          "readOptions" : {
+            "commandType" : 0,
+            "descending" : "false",
+            "queryAll" : "false",
+            "rowLimit" : 0,
+            "selectDistinct" : "false"
+          }
+        }
+      },
+      {
+        "augmented" : "false",
+        "createTime" : "2024-02-07T09:34:24.261Z",
+        "name" : "Target",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "createTarget" : "true",
+        "fieldMappingMode" : "BY_NAME",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "targetFieldsOrdered" : "false",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "dataAdapter" : {
+          "connectionId" : "saas:@0SGUhtPfiXtg4CFSXqSjod",
+          "connectionName" : "Jimson_CSV",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "CSVFile",
+          "useDynamicFileName" : "false",
+          "bulkOptions" : {
+            "hardDelete" : "false",
+            "maxRowsPerRequest" : 0,
+            "monitorBulk" : "false",
+            "monitorBulkV2" : "false",
+            "pkChunkingEnabled" : "false",
+            "pkChunkingSize" : 0,
+            "serialMode" : "false",
+            "useBulkApi" : "false",
+            "useBulkApiV2" : "false"
+          },
+          "object" : {
+            "name" : "new23.csv",
+            "label" : "new23.csv",
+            "path" : "new23.csv",
+            "retainMetadata" : "false",
+            "fileAttrs" : {
+              "consecutiveDelimiter" : "false",
+              "delimiter" : ",",
+              "firstDataRow" : 2,
+              "firstDataRowAsHeader" : "false",
+              "headerAndDataDelimiter" : 0,
+              "headerLineNo" : 1,
+              "multiDelimitersAsAnd" : "true",
+              "rowDelimiter" : 0,
+              "textQualifier" : "\""
+            }
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "true",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false"
+          }
+        }
+      }
+    ]
+  },
+  "vcsExportTime" : "2026-04-13 14:00:39 PDT"
+}
